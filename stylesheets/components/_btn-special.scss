@@ -1,0 +1,15 @@
+.btn-special {
+  color: $secondary;
+  border: 2px solid $info;
+  font-weight: bold;
+  background-color: $white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 220px;
+}
+
+.btn-check:checked + .btn-special {
+  background-color: $info;
+  color: $white !important;
+  box-shadow: $box-shadow-lg;
+}
